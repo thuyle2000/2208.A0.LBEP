@@ -56,5 +56,4 @@ int main(){
         printf("%\t %s\n", tensv[i]);
     }
     
-    
 }
