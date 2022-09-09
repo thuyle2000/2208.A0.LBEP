@@ -2,10 +2,15 @@
 #include <stdlib.h>
 
 //ham in n-phan tu (so nguyen) trong mang ds[] ra man hinh
+/*
+    ten ham : fn_print()
+    tham so hinh thuc (formal arguments) : ds[], n
+    kieu ham : void -> ko co gia tri tra ve cho ct goi
+*/
 void fn_print(int ds[], int n){
     for (int i = 0; i < n; i++)
     {
-        printf("%3d ", ds[i]);
+        printf("%4d ", ds[i]);
     }
 }
 
@@ -23,7 +28,10 @@ int main()
     // {
     //     printf("%3d ", a[i]);
     // }
-    fn_print(a, 9);
+
+    // lenh goi ham fn_print() de in noi dung 9 phan tu cua mang a[] ra man hinh
+    // a va 9 la tham so thuc te (actual arguments)
+    fn_print(a, 9); 
 
     // sap xep day so trong mang a[] theo thu tu tang dan
     int tam;
@@ -69,5 +77,7 @@ int main()
     //     printf("%3d ", a[i]);
     // }
     fn_print(a, 9);
+
+    printf("\n\n");
 }
 
