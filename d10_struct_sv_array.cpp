@@ -66,8 +66,9 @@ void fn_Students(){
     printf("\n\n Danh sach sinh vien \n");
     for (int i = 0; i < n; i++)
     {
-        printf(" %4s %-20s %3d \n", ds[i].id, ds[i].name, ds[i].mark);
+        printf(" %4s %-20s %02d-%02d-%4d %3d \n", ds[i].id, ds[i].name, 
+        ds[i].birthday.dd, ds[i].birthday.mm, ds[i].birthday.yy,
+        ds[i].mark);
     }
-    
 
 }
