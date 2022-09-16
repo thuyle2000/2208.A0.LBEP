@@ -95,6 +95,4 @@ void fn_Students(){
         printf(" >> KO TIM  THAY !!! \n");
     }
     
-
-
 }
